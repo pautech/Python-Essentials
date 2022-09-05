@@ -16,5 +16,5 @@ ScienceGrade=float(input("Please Input your Science Grade: "))
 EnglishGrade=float(input("Please Input your English Grade: "))
 average=(MathGrade+ScienceGrade+EnglishGrade)/4
 print("\n")
-print("Hello!! ",Name+"Your General Average is {:.2f}".format(average))
+print("Hello!! ",Name+" Your General Average is {:.2f}".format(average))
 print("\n")
