@@ -1,20 +1,29 @@
-#1.Create 4 Variables use input function() (Name (string),Math Grade
-#(float),Science Grade (float),English Grade (integer), Average (float))
-#2. Use input statement
-#3.Display the result:
-#Name: __________
-#Math Grade:_____________
-#Science Grade:___________
-#English Grade:___________ 
-#Average:______________
+# Create New Python File
+#2. The user will input 6 information (3 nouns and 3 adjectives)
+#3. Search for any poem or song on the internet
+#4. Replace the poem or song lyrics string with the nouns and adjectives from user's input.
+#5. Display the original song and poem and display the result (nouns and adjectives
+#must be in all caps)
+
+noun1=input("Enter First Noun: ")
+noun2=input("Enter Second Noun: ")
+noun3=input("Enter Third Noun: ")
+
+adjective1=input("Enter First Adjective: ")
+adjective2=input("Enter Second Adjective: ")
+adjective3=input("Enter Third Adjective: ")
+
+
+print("This is the original Poem ")
 print("\n")
-print("-----Get My Average App-----")
+print("This is the field where the battle did not happen,")
+print("where the unknown soldier did not die.")
+print("This is the field where grass joined hands,")
+print("where no monument stands,")
+print ("and the only heroic thing is the sky.")
 print("\n")
-Name=input("Please Input you Name: ")
-MathGrade=float(input("Please Input your Math Grade: "))
-ScienceGrade=float(input("Please Input your Science Grade: "))
-EnglishGrade=float(input("Please Input your English Grade: "))
-average=(MathGrade+ScienceGrade+EnglishGrade)/4
-print("\n")
-print("Hello!! ",Name+" Your General Average is {:.2f}".format(average))
-print("\n")
+print("Birds fly here without any sound,")
+print("unfolding their wings across the open.")
+print("No people killed—or were killed—on this ground")
+print("hallowed by neglect and an air so tame")
+print("that people celebrate it by forgetting its name.")
