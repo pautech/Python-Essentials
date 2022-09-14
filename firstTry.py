@@ -1,23 +1,20 @@
-#Write a program that will check the employees years in service and office.
-#The user will input number for years and in service and the following offices (it, acct, hr)
-# check the following conditions
+#Write a program that will accept 3 numbers
+#Display the numbers in Descending Order
+
+#Enter first Number : 12
+#Enter second Number : 1
+#Enter third Number : 3
+#Result = 12 3 1
+numcon=[]
+num1=int(input("Enter first Number: "))
+numcon.append(num1)
+num2=int(input("Enter Second Number: "))
+numcon.append(num2)
+num3=int(input("Enter Third Number: "))
+numcon.append(num3)
+numcon.sort(reverse=True)
+
+print(numcon)
 
 
-employeeInfoYears=int(input("Enter number of Years in Service: "))
-employeeInfoOffices=input("Enter Office (IT,ACCT,HR): ")
-office=employeeInfoOffices
-
-if(employeeInfoYears>=10 and office.upper()=="IT"):
-    print("Your Bonus is 10,000")
-elif(employeeInfoYears<10 and office.upper()=="IT"):
-    print("Your Bonus is 5,000")
-
-elif(employeeInfoYears>=10 and office.upper()=="ACCT"):
-    print("Your Bonus is 10,000")
-elif(employeeInfoYears<10 and office.upper()=="ACCT"):
-        print("Your Bonus is 5,000")
-
-elif(employeeInfoYears>=10 and office.upper()=="HR"):
-    print("Your Bonus is 10,000")
-elif(employeeInfoYears<10 and office.upper()=="HR"):
-        print("Your Bonus is 5,000")
+ 
